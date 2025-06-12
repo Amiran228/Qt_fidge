@@ -34,7 +34,7 @@ jobs:
       run: |
         cd build
         ls -l
-        ./Fridge  # Или замените на нужное имя, если отличается
+        ./appFridge
 
     - name: Run tests
       run: |

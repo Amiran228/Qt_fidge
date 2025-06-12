@@ -15,31 +15,31 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Install Qt and coverage tools
-
-run: |
+      run: |
         sudo apt-get update
         sudo apt-get install -y qt6-base-dev qt6-declarative-dev cmake g++ ninja-build lcov
 
-    - name: Proverka
+    - name: Configure CMake
       run: |
-        ls
-        pwd
-        rm -r build
         mkdir -p build
         cd build
-        cmake ..
-        make -j$(nproc)
-        ls -l
-        ./Fridge
-
-    - name: Configure CMake
-      run: cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
+        cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
 
     - name: Build project
-      run: cmake --build .
+      run: |
+        cd build
+        cmake --build .
+
+    - name: Run app
+      run: |
+        cd build
+        ls -l
+        ./Fridge  # Или замените на нужное имя, если отличается
 
     - name: Run tests
-      run: ctest --output-on-failure
+      run: |
+        cd build
+        ctest --output-on-failure
 
     - name: Generate coverage report
       run: |
@@ -53,3 +53,4 @@ run: |
       with:
         name: coverage-report
         path: build/coverage-report/
+
