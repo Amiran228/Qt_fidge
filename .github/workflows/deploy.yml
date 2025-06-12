@@ -18,41 +18,33 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y qt6-base-dev qt6-declarative-dev cmake g++ ninja-build lcov xvfb
-   
-   - name: Prepare build directory
+    - name: Prepare build directory
       run: |
         if [ ! -d build ]; then mkdir build; fi
-
     - name: Configure CMake
       run: |
         cd build
         cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
-
     - name: Build project
       run: |
         cd build
         cmake --build .
-
     - name: Run app (headless)
       run: |
         cd build
         xvfb-run ./appFridge
-
     - name: Run tests
       run: |
         cd build
         ctest --output-on-failure
-
     - name: Generate coverage report
       run: |
         cd build
         lcov --capture --directory . --output-file coverage.info
         lcov --remove coverage.info '/usr/*' --output-file coverage.info
         genhtml coverage.info --output-directory coverage-report
-
     - name: Upload coverage report
       uses: actions/upload-artifact@v4
       with:
         name: coverage-report
         path: build/coverage-report/
-
