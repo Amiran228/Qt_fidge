@@ -35,7 +35,7 @@ jobs:
       run: |
         cd build
         ls -l
-        ./mai.cpp
+        ./main.cpp
 
     - name: Run tests
       run: |
