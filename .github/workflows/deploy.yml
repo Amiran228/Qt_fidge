@@ -17,12 +17,14 @@ jobs:
     - name: Install Qt and coverage tools
       run: |
         sudo apt-get update
-        sudo apt-get install -y qt6-base-dev qt6-declarative-dev cmake g++ ninja-build lcov
+        sudo apt-get install -y qt6-base-dev qt6-declarative-dev cmake g++ ninja-build lcov xvfb
+
+    - name: Prepare build directory
+      run: |
+        if [ ! -d build ]; then mkdir build; fi
 
     - name: Configure CMake
       run: |
-        rm -r build
-        mkdir -p build
         cd build
         cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
 
@@ -31,10 +33,9 @@ jobs:
         cd build
         cmake --build .
 
-    - name: Run app
+    - name: Run app (headless)
       run: |
         cd build
-        ls -l
         xvfb-run ./appFridge
 
     - name: Run tests
