@@ -14,7 +14,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 22,
-                        "durationMicroseconds": 137,
+                        "durationMicroseconds": 517,
                         "errorMessage": "",
                         "functionName": "accent",
                         "line": 13
@@ -22,7 +22,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 46,
+                        "durationMicroseconds": 59,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 21
@@ -30,7 +30,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 116,
                         "errorMessage": "",
                         "functionName": "fillMode",
                         "line": 27
@@ -38,7 +38,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 39,
+                        "durationMicroseconds": 47,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 25
@@ -46,7 +46,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 27,
-                        "durationMicroseconds": 36,
+                        "durationMicroseconds": 41,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 31
@@ -54,7 +54,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 37,
+                        "durationMicroseconds": 39,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 37
@@ -62,7 +62,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 308,
+                        "durationMicroseconds": 278,
                         "errorMessage": "Cannot access value for name fridgeApp",
                         "functionName": "onTextChanged",
                         "line": 46
@@ -70,7 +70,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 229,
+                        "durationMicroseconds": 216,
                         "errorMessage": "Cannot access value for name fridgeApp",
                         "functionName": "model",
                         "line": 54
@@ -78,7 +78,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 39,
-                        "durationMicroseconds": 176,
+                        "durationMicroseconds": 288,
                         "errorMessage": "Cannot access value for name fridgeApp",
                         "functionName": "onCurrentTextChanged",
                         "line": 55
@@ -86,7 +86,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 177,
+                        "durationMicroseconds": 207,
                         "errorMessage": "Cannot access value for name fridgeApp",
                         "functionName": "onClicked",
                         "line": 65
@@ -94,7 +94,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "background",
                         "line": 63
@@ -102,7 +102,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 220,
+                        "durationMicroseconds": 190,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 72
@@ -110,7 +110,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 79,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "background",
                         "line": 70
@@ -118,7 +118,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 20,
-                        "durationMicroseconds": 360,
+                        "durationMicroseconds": 810,
                         "errorMessage": "Cannot access value for name fridgeModel",
                         "functionName": "model",
                         "line": 85
@@ -126,7 +126,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 36,
-                        "durationMicroseconds": 162,
+                        "durationMicroseconds": 177,
                         "errorMessage": "",
                         "functionName": "onCurrentIndexChanged",
                         "line": 90
@@ -134,7 +134,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 18,
+                        "durationMicroseconds": 20,
                         "errorMessage": "Cannot access value for name productList",
                         "functionName": "width",
                         "line": 93
@@ -142,7 +142,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 42,
+                        "durationMicroseconds": 79,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 101
@@ -150,7 +150,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 138,
+                        "durationMicroseconds": 129,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 107
@@ -158,7 +158,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 57,
+                        "durationMicroseconds": 58,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 110
@@ -166,7 +166,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 110,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 114
@@ -174,7 +174,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 54,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 117
@@ -182,7 +182,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 103,
+                        "durationMicroseconds": 106,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 121
@@ -198,7 +198,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 103,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 128
@@ -214,7 +214,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 21,
+                        "durationMicroseconds": 22,
                         "errorMessage": "Cannot access value for name productList",
                         "functionName": "width",
                         "line": 137
@@ -230,7 +230,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 32,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 25,
                         "errorMessage": "Cannot access value for name productList",
                         "functionName": "onClicked",
                         "line": 153
@@ -238,7 +238,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 38,
-                        "durationMicroseconds": 21,
+                        "durationMicroseconds": 23,
                         "errorMessage": "Cannot access value for name editDialog",
                         "functionName": "onDoubleClicked",
                         "line": 157
@@ -246,7 +246,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 96,
+                        "durationMicroseconds": 50,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 150
@@ -254,7 +254,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 35,
-                        "durationMicroseconds": 41,
+                        "durationMicroseconds": 44,
                         "errorMessage": "",
                         "functionName": "fill",
                         "line": 161
@@ -270,7 +270,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 113,
+                        "durationMicroseconds": 110,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 167
@@ -278,7 +278,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 68,
+                        "durationMicroseconds": 53,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 169
@@ -294,7 +294,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 19,
+                        "durationMicroseconds": 18,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
                         "line": 173
@@ -302,7 +302,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 106,
+                        "durationMicroseconds": 112,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 174
@@ -310,7 +310,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 51,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 176
@@ -334,7 +334,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 77,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 182
@@ -342,7 +342,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 31,
-                        "durationMicroseconds": 18,
+                        "durationMicroseconds": 21,
                         "errorMessage": "Cannot access value for name model",
                         "functionName": "text",
                         "line": 185
@@ -350,7 +350,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 144,
+                        "durationMicroseconds": 131,
                         "errorMessage": "",
                         "functionName": "width",
                         "line": 186
@@ -358,7 +358,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 44,
-                        "durationMicroseconds": 52,
+                        "durationMicroseconds": 54,
                         "errorMessage": "",
                         "functionName": "verticalAlignment",
                         "line": 188
@@ -366,7 +366,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 32,
-                        "durationMicroseconds": 50,
+                        "durationMicroseconds": 51,
                         "errorMessage": "",
                         "functionName": "elide",
                         "line": 189
@@ -374,7 +374,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 323,
+                        "durationMicroseconds": 322,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 200
@@ -382,7 +382,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 24,
-                        "durationMicroseconds": 283,
+                        "durationMicroseconds": 320,
                         "errorMessage": "",
                         "functionName": "color",
                         "line": 206
@@ -390,7 +390,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 23,
-                        "durationMicroseconds": 308,
+                        "durationMicroseconds": 293,
                         "errorMessage": "",
                         "functionName": "text",
                         "line": 212
@@ -398,7 +398,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 294,
+                        "durationMicroseconds": 280,
                         "errorMessage": "method isValidDate cannot be resolved.",
                         "functionName": "color",
                         "line": 213
@@ -406,7 +406,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 34,
-                        "durationMicroseconds": 249,
+                        "durationMicroseconds": 282,
                         "errorMessage": "method isValidDate cannot be resolved.",
                         "functionName": "visible",
                         "line": 214
@@ -414,7 +414,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 207,
+                        "durationMicroseconds": 202,
                         "errorMessage": "Cannot access value for name fridgeApp",
                         "functionName": "model",
                         "line": 219
@@ -422,7 +422,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 419,
+                        "durationMicroseconds": 422,
                         "errorMessage": "method isValidDate cannot be resolved.",
                         "functionName": "onClicked",
                         "line": 227
@@ -430,7 +430,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 84,
+                        "durationMicroseconds": 85,
                         "errorMessage": "",
                         "functionName": "background",
                         "line": 225
@@ -438,7 +438,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 108,
+                        "durationMicroseconds": 122,
                         "errorMessage": "",
                         "functionName": "enabled",
                         "line": 249
@@ -446,7 +446,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 28,
-                        "durationMicroseconds": 451,
+                        "durationMicroseconds": 447,
                         "errorMessage": "Cannot generate efficient code for call to untyped JavaScript function",
                         "functionName": "onClicked",
                         "line": 253
@@ -454,7 +454,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 95,
+                        "durationMicroseconds": 78,
                         "errorMessage": "",
                         "functionName": "background",
                         "line": 251
@@ -462,7 +462,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 26,
-                        "durationMicroseconds": 102,
+                        "durationMicroseconds": 101,
                         "errorMessage": "",
                         "functionName": "enabled",
                         "line": 265
@@ -470,7 +470,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 28,
-                        "durationMicroseconds": 566,
+                        "durationMicroseconds": 588,
                         "errorMessage": "",
                         "functionName": "onClicked",
                         "line": 269
@@ -478,7 +478,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 38,
-                        "durationMicroseconds": 79,
+                        "durationMicroseconds": 80,
                         "errorMessage": "",
                         "functionName": "background",
                         "line": 267
@@ -502,7 +502,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 373,
+                        "durationMicroseconds": 393,
                         "errorMessage": "method isValidDate cannot be resolved.",
                         "functionName": "onAccepted",
                         "line": 337
@@ -526,7 +526,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 24,
-                        "durationMicroseconds": 199,
+                        "durationMicroseconds": 180,
                         "errorMessage": "Cannot access value for name fridgeApp",
                         "functionName": "model",
                         "line": 332
@@ -534,7 +534,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 18,
-                        "durationMicroseconds": 65,
+                        "durationMicroseconds": 70,
                         "errorMessage": "",
                         "functionName": "buttons",
                         "line": 359
@@ -542,7 +542,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 30,
-                        "durationMicroseconds": 153,
+                        "durationMicroseconds": 123,
                         "errorMessage": "",
                         "functionName": "standardButtons",
                         "line": 367
@@ -550,7 +550,7 @@
                     {
                         "codegenSuccessfull": false,
                         "column": 21,
-                        "durationMicroseconds": 225,
+                        "durationMicroseconds": 230,
                         "errorMessage": "Cannot access value for name fridgeApp",
                         "functionName": "onAccepted",
                         "line": 384
@@ -558,7 +558,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 31,
-                        "durationMicroseconds": 44,
+                        "durationMicroseconds": 46,
                         "errorMessage": "",
                         "functionName": "centerIn",
                         "line": 368
@@ -566,7 +566,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 92,
+                        "durationMicroseconds": 100,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 377
@@ -574,7 +574,7 @@
                     {
                         "codegenSuccessfull": true,
                         "column": 45,
-                        "durationMicroseconds": 86,
+                        "durationMicroseconds": 91,
                         "errorMessage": "",
                         "functionName": "verticalCenter",
                         "line": 381
