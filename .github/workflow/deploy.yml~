@@ -1,0 +1,45 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Install Qt and coverage tools
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y qt6-base-dev qt6-declarative-dev cmake g++ ninja-build lcov
+
+    - name: Create build directory
+      run: mkdir build && cd build
+
+    - name: Configure CMake
+      run: cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
+
+    - name: Build project
+      run: cmake --build .
+
+    - name: Run tests
+      run: ctest --output-on-failure
+
+    - name: Generate coverage report
+      run: |
+        cd build
+        lcov --capture --directory . --output-file coverage.info
+        lcov --remove coverage.info '/usr/*' --output-file coverage.info
+        genhtml coverage.info --output-directory coverage-report
+
+    - name: Upload coverage report
+      uses: actions/upload-artifact@v4
+      with:
+        name: coverage-report
+        path: build/coverage-report/
