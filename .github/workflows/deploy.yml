@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: CI Pipeline ALT Linux
 
 on:
   push:
@@ -8,16 +8,20 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # пока GitHub Actions не поддерживает ALT Linux напрямую, запускаем контейнер
+
+    container:
+      image: altlinux/alt  # официальный образ ALT Linux, можно уточнить тег
 
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install Qt and coverage tools
+    - name: Install dependencies ALT Linux
       run: |
-        sudo apt-get update
-        sudo apt-get install -y qt6-base-dev qt6-declarative-dev cmake g++ ninja-build lcov xvfb
+        # ALT Linux использует apt-get, но может понадобиться обновить список и установить эквиваленты пакетов
+        apt-get update
+        apt-get install -y qt6-base-devel qt6-declarative-devel cmake gcc-c++ ninja-build lcov xvfb
 
     - name: Prepare build directory
       run: |
