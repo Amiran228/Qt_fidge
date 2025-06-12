@@ -70,3 +70,17 @@
 183	211	1749757989409096436	meta_types/qt6appfridge_debug_metatypes.json	3077a37509466e4d
 183	211	1749757989409096436	/home/user/Fridge/build/Desktop-Debug/meta_types/qt6appfridge_debug_metatypes.json.gen	3077a37509466e4d
 183	211	1749757989409096436	/home/user/Fridge/build/Desktop-Debug/meta_types/qt6appfridge_debug_metatypes.json	3077a37509466e4d
+29	197	1749758128055813565	appFridge_autogen/timestamp	90b52be70d12e8
+29	197	1749758128055813565	appFridge_autogen/mocs_compilation.cpp	90b52be70d12e8
+29	197	1749758128055813565	/home/user/Fridge/build/Desktop-Debug/appFridge_autogen/timestamp	90b52be70d12e8
+29	197	1749758128055813565	/home/user/Fridge/build/Desktop-Debug/appFridge_autogen/mocs_compilation.cpp	90b52be70d12e8
+199	206	1749758128319820643	meta_types/appFridge_json_file_list.txt	d4f05617409f6b65
+199	206	1749758128319820643	meta_types/appFridge_json_file_list.txt.timestamp	d4f05617409f6b65
+199	206	1749758128319820643	/home/user/Fridge/build/Desktop-Debug/meta_types/appFridge_json_file_list.txt	d4f05617409f6b65
+199	206	1749758128319820643	/home/user/Fridge/build/Desktop-Debug/meta_types/appFridge_json_file_list.txt.timestamp	d4f05617409f6b65
+206	223	1749758128316820563	meta_types/qt6appfridge_debug_metatypes.json.gen	3077a37509466e4d
+206	223	1749758128316820563	meta_types/qt6appfridge_debug_metatypes.json	3077a37509466e4d
+206	223	1749758128316820563	/home/user/Fridge/build/Desktop-Debug/meta_types/qt6appfridge_debug_metatypes.json.gen	3077a37509466e4d
+206	223	1749758128316820563	/home/user/Fridge/build/Desktop-Debug/meta_types/qt6appfridge_debug_metatypes.json	3077a37509466e4d
+225	1592	1749758129691857428	CMakeFiles/appFridge.dir/main.cpp.o	9929ceb671707d3c
+1592	2162	1749758130265872817	appFridge	ee4fe87592b5a8af
