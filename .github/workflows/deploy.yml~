@@ -44,6 +44,8 @@ jobs:
     - name: Run app (headless)
       run: |
         cd build
+        export QT_QPA_PLATFORM=offscreen
+        export QML2_IMPORT_PATH=/usr/lib/$(dpkg-architecture -qDEB_HOST_MULTIARCH)/qt6/qml
         xvfb-run ./appFridge
 
     - name: Run tests
