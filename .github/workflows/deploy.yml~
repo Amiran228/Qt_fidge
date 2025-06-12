@@ -23,7 +23,6 @@ jobs:
           qt6-declarative-dev \
           qt6-declarative-dev-tools \
           libqt6quickcontrols2-6 \
-          libqt6quickcontrols2-plugins \
           libqt6quickdialogs2-6 \
           libqt6quicklayouts6 \
           qt6-qmltooling-plugins \
