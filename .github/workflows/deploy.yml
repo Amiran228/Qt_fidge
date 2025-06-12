@@ -21,24 +21,17 @@ jobs:
         sudo apt-get install -y \
           qt6-base-dev \
           qt6-declarative-dev \
-          qt6-quickcontrols2-dev \
-          qt6-shadereffects-dev \
-          qt6-l10n-tools \
           qt6-tools-dev \
           qt6-tools-dev-tools \
           qt6-qmltooling-plugins \
-          qt6-quicktimeline-dev \
-          qt6-doc-html \
           qml6-module-qtquick \
           qml6-module-qtquick-controls \
-          qml6-module-qtquick-controls2 \
-          qml6-module-qtquick-dialogs \
           qml6-module-qtquick-layouts \
-          qml6-module-qtquick-shapes \
+          qml6-module-qtquick-dialogs \
           qml6-module-qtquick-window \
-          qml6-module-qtquick2 \
-          qml6-module-qtquick-controls-material \
-          cmake g++ ninja-build lcov xvfb
+          qml6-module-qtquick-shapes \
+          qml6-module-qtquick-controls-material
+
     - name: Prepare build directory
       run: |
         mkdir -p build
