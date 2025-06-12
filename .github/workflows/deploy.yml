@@ -29,7 +29,8 @@ run: |
         cd build
         cmake ..
         make -j$(nproc)
-        ./home/runner/work/Qt_fidge/Qt_fidge
+        ls -l
+        ./Fridge
 
     - name: Configure CMake
       run: cmake -G Ninja .. -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
