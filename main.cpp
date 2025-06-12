@@ -9,7 +9,7 @@ int main(int argc, char *argv[]) {
     QQmlApplicationEngine engine;
     engine.rootContext()->setContextProperty("fridgeApp", &fridgeApp);
     engine.rootContext()->setContextProperty("fridgeModel", fridgeApp.getModel());
-    const QUrl url(u"qrc:/qt/qml/Fridge/Main.qml"_qs);
+    /* const QUrl url(u"qrc:/qt/qml/Fridge/Main.qml"_qs);*/
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,
                      &app, [url](QObject *obj, const QUrl &objUrl) {
                          if (!obj && url == objUrl)
