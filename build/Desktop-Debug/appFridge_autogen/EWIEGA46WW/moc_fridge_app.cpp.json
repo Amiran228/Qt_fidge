@@ -1,0 +1,149 @@
+{
+    "classes": [
+        {
+            "className": "FridgeApp",
+            "lineNumber": 9,
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "categories",
+                    "read": "categories",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QStringList",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "filterText",
+                    "notify": "filterTextChanged",
+                    "read": "filterText",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilterText"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "filterCategory",
+                    "notify": "filterCategoryChanged",
+                    "read": "filterCategory",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setFilterCategory"
+                }
+            ],
+            "qualifiedClassName": "FridgeApp",
+            "signals": [
+                {
+                    "access": "public",
+                    "index": 0,
+                    "name": "filterTextChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 1,
+                    "name": "filterCategoryChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "quantity",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "expiry",
+                            "type": "QDate"
+                        },
+                        {
+                            "name": "category",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "addProduct",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "removeProduct",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "index",
+                            "type": "int"
+                        },
+                        {
+                            "name": "name",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "quantity",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "expiry",
+                            "type": "QDate"
+                        },
+                        {
+                            "name": "category",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 4,
+                    "name": "editProduct",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 5,
+                    "name": "sortProducts",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "fridge_app.h",
+    "outputRevision": 68
+}

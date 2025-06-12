@@ -1,0 +1,2 @@
+/home/user/Fridge/build/Desktop-Debug/appFridge_autogen/include/../EWIEGA46WW/moc_fridge_app.cpp.json
+/home/user/Fridge/build/Desktop-Debug/appFridge_autogen/include/../EWIEGA46WW/moc_fridge_model.cpp.json

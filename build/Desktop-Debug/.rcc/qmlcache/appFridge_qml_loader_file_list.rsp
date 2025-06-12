@@ -1,0 +1,7 @@
+--resource
+/home/user/Fridge/build/Desktop-Debug/.qt/rcc/qmake_Fridge.qrc
+--resource
+/home/user/Fridge/build/Desktop-Debug/.qt/rcc/appFridge_raw_qml_0.qrc
+--resource
+/home/user/Fridge/build/Desktop-Debug/.qt/rcc/resources.qrc
+/qt/qml/Fridge/Main.qml

@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="fridge.png">/home/user/Fridge/fridge.png</file>
+    <file alias="delete_icon.png">/home/user/Fridge/delete_icon.png</file>
+    <file alias="Main.qml">/home/user/Fridge/Main.qml</file>
+    <file alias="background.png">/home/user/Fridge/background.png</file>
+  </qresource>
+</RCC>
+

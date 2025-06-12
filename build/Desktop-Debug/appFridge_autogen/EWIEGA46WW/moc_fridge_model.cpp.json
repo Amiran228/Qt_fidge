@@ -1,0 +1,32 @@
+{
+    "classes": [
+        {
+            "className": "FridgeModel",
+            "lineNumber": 14,
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "row",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "get",
+                    "returnType": "QVariantMap"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "FridgeModel",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QAbstractListModel"
+                }
+            ]
+        }
+    ],
+    "inputFile": "fridge_model.h",
+    "outputRevision": 68
+}
