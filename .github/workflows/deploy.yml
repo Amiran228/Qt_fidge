@@ -17,9 +17,7 @@ jobs:
     - name: Install Qt and tools
       run: |
         sudo apt-get update
-        sudo apt-get install qt5-default
-        sudo apt install qtcreator
-        sudo apt install qtbase5-examples qtdeclarative5-example
+        sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake
 
     - name: Prepare build directory
       run: |
