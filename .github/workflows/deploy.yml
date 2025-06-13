@@ -13,14 +13,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-
-    - name: Install Qt
-      uses: jurplel/install-qt-action@v3
-      with:
-        version: '6.6.2'
-        modules: qtdeclarative qtquickcontrols2
-        cache: true
-
+    
     - name: Install Qt and tools
       run: |
         sudo apt-get update
