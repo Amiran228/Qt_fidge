@@ -18,19 +18,6 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt install -y qtcreator qtbase5-dev qt5-qmake cmake
-
-        sudo apt-get install -y \
-          qt6-base-dev \
-          qt6-declarative-dev \
-          qt6-tools-dev-tools \
-          qt6-l10n-tools \
-          qt6-quickcontrols2-dev \
-          qt6-quickdialogs2-dev \
-          cmake \
-          g++ \
-          ninja-build \
-          lcov \
-          xvfb
         sudo apt-get install -y qt6-base-dev qt6-declarative-dev cmake g++ ninja-build lcov xvfb
     - name: Prepare build directory
       run: |
@@ -39,7 +26,3 @@ jobs:
       run: |
         cd build
         cmake .. -G Ninja -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS="--coverage"
-    - name: Build project
-      run: |
-        cd build
-        cmake --build .
