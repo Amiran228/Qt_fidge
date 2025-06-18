@@ -1,0 +1,15 @@
+-rootPath
+/home/user/Fridge
+-cmake-output
+-output-file
+/home/user/Fridge/.qt/qml_imports/appFridge_conf.cmake
+-importPath
+/home/user/Fridge/Fridge
+-importPath
+/home/user/Fridge
+-importPath
+/usr/lib64/qt6/qml
+-qrcFiles
+/home/user/Fridge/.qt/rcc/qmake_Fridge.qrc
+/home/user/Fridge/.qt/rcc/appFridge_raw_qml_0.qrc
+/home/user/Fridge/.qt/rcc/resources.qrc

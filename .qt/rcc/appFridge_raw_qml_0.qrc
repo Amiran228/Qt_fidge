@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/Fridge/">
+    <file alias="Main.qml">/home/user/Fridge/Main.qml</file>
+  </qresource>
+</RCC>
+

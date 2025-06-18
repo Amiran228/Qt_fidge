@@ -1,0 +1,12 @@
+--bare
+-I
+/home/user/Fridge
+-I
+/usr/lib64/qt6/qml
+--resource
+/home/user/Fridge/.qt/rcc/qmake_Fridge.qrc
+--resource
+/home/user/Fridge/.qt/rcc/appFridge_raw_qml_0.qrc
+--resource
+/home/user/Fridge/.qt/rcc/resources.qrc
+/home/user/Fridge/Main.qml

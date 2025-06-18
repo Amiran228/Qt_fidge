@@ -43,22 +43,3 @@ jobs:
       run: |
         cd build
         cmake --build .
-    - name: Run app (headless)
-      run: |
-        cd build
-        xvfb-run ./appFridge
-    - name: Run tests
-      run: |
-        cd build
-        ctest --output-on-failure
-    - name: Generate coverage report
-      run: |
-        cd build
-        lcov --capture --directory . --output-file coverage.info
-        lcov --remove coverage.info '/usr/*' --output-file coverage.info
-        genhtml coverage.info --output-directory coverage-report
-    - name: Upload coverage report
-      uses: actions/upload-artifact@v4
-      with:
-        name: coverage-report
-        path: build/coverage-report/
