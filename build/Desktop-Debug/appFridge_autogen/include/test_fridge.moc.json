@@ -1,0 +1,38 @@
+{
+    "classes": [
+        {
+            "className": "TestFridgeModel",
+            "lineNumber": 4,
+            "object": true,
+            "qualifiedClassName": "TestFridgeModel",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "initTestCase",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "cleanupTestCase",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "testAddProduct",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "test_fridge.cpp",
+    "outputRevision": 68
+}

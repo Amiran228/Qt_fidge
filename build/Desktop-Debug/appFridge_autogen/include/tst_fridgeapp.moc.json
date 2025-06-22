@@ -1,0 +1,74 @@
+{
+    "classes": [
+        {
+            "className": "TestFridgeApp",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "TestFridgeApp",
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 0,
+                    "name": "initTestCase",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 1,
+                    "name": "cleanupTestCase",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 2,
+                    "name": "init",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "cleanup",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 4,
+                    "name": "testAddProduct",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 5,
+                    "name": "testRemoveProduct",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 6,
+                    "name": "testEditProduct",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 7,
+                    "name": "testFilterProducts",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 8,
+                    "name": "testSortProducts",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "tst_fridgeapp.cpp",
+    "outputRevision": 68
+}

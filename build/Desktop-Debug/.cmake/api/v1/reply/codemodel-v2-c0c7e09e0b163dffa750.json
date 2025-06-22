@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-01c238bd7412a2929b3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Fridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-19a2b93edfa7a98e481c.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-11ec8fdf797a8530767f.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-881a4e5c9c4ffd85c0ee.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-06031c239e330871a094.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-21e0250262f6b620f240.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge-Debug-9f2684f3f4e014105962.json",
+					"name" : "appFridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_autogen-Debug-27f5ca9b9a460fee1f05.json",
+					"name" : "appFridge_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_autogen_timestamp_deps-Debug-9d24cbe5d5dead8de25b.json",
+					"name" : "appFridge_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_copy_qml-Debug-ab8455e111bb3503224c.json",
+					"name" : "appFridge_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_copy_res-Debug-2bb360f878b3b229c031.json",
+					"name" : "appFridge_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_qmlimportscan-Debug-0b8023fcb66b9919f85b.json",
+					"name" : "appFridge_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_qmllint-Debug-acce3dfd6c4e08932ec8.json",
+					"name" : "appFridge_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_qmllint_json-Debug-3a5c7900d6986912b0a4.json",
+					"name" : "appFridge_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_qmllint_module-Debug-0e913b65fd677dcb45d9.json",
+					"name" : "appFridge_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appFridge_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appFridge_qmltyperegistration-Debug-46cd5a9457631cb0e8e4.json",
+					"name" : "appFridge_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_appFridge_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_appFridge_aotstats_target-Debug-6813e1343ba00b6a1c3c.json",
+					"name" : "module_appFridge_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testFridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testFridge-Debug-72b8e85bb18d6235da34.json",
+					"name" : "testFridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testFridge_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testFridge_autogen-Debug-96173c9fdee9b5285013.json",
+					"name" : "testFridge_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testFridge_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testFridge_autogen_timestamp_deps-Debug-87e40b3868b72a6078e5.json",
+					"name" : "testFridge_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "testFridge_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-testFridge_qmlimportscan-Debug-74405f0e22cdc9a0100d.json",
+					"name" : "testFridge_qmlimportscan",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/Fridge/build/Desktop-Debug",
+		"source" : "/home/user/Fridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

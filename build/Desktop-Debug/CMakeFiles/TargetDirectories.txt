@@ -9,9 +9,12 @@
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/all_qmllint_module.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/appFridge_copy_qml.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/appFridge_copy_res.dir
+/home/user/Fridge/build/Desktop-Debug/CMakeFiles/testFridge.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/module_appFridge_aotstats_target.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/all_aotstats.dir
+/home/user/Fridge/build/Desktop-Debug/CMakeFiles/testFridge_qmlimportscan.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/appFridge_qmlimportscan.dir
+/home/user/Fridge/build/Desktop-Debug/CMakeFiles/test.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/edit_cache.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/list_install_components.dir
@@ -20,3 +23,5 @@
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/install/strip.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/appFridge_autogen_timestamp_deps.dir
 /home/user/Fridge/build/Desktop-Debug/CMakeFiles/appFridge_autogen.dir
+/home/user/Fridge/build/Desktop-Debug/CMakeFiles/testFridge_autogen_timestamp_deps.dir
+/home/user/Fridge/build/Desktop-Debug/CMakeFiles/testFridge_autogen.dir
